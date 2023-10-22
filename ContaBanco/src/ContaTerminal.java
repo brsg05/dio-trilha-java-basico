@@ -19,7 +19,7 @@ Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
     double saldo = scanner.nextDouble();
     
 	System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + 
-	                   ", conta " + numero + " e seu saldo " + saldo + " já está disponivel para saque.");
+	                   ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.");
 
 	scanner.close();
 	}
